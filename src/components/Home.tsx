@@ -2,7 +2,7 @@ import { Box, Flex, Heading, Image} from '@chakra-ui/react'
 import images from '../constants/images'
 const Home = () => {
   return (
-    <Box bg={{base:'yellow.50', md:'none'}}
+    <Box
     paddingBottom={{base:'2rem', md:'none'}}>
       <div className='container'>
           <div id='home'>

@@ -1,0 +1,9 @@
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    overflow: hidden;
+    padding-inline: 1rem;
+  }
+.section{
+  padding-top: 5rem;
+}

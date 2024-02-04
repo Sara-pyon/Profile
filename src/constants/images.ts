@@ -1,4 +1,4 @@
-import profile1 from '../assets/profile-image1.png'
+import profile1 from '../assets/profile-img3.jpg'
 import profile2 from '../assets/profile-img2.png'
 import portfolio1 from '../assets/Portfolio-1.png'
 import portfolio2 from '../assets/Portfolio-2.png'

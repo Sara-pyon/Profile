@@ -1,4 +1,8 @@
 import images from "./images"
+import { MdComputer } from "react-icons/md";
+import { FaGraduationCap } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { LiaGitAlt } from "react-icons/lia";
 
 const profile = {
     name :'Sara Komatsu',
@@ -9,21 +13,25 @@ const profile = {
 }
 
 const profileEducation = [{
-    title: `Department of <br/> Mathematical Sciences`,
+    title: `Department of Mathematical Sciences`,
     location: 'Japan - Ibaraki University',
-    term: '2019-2023'
+    term: '2019-2023',
+    icon: FaGraduationCap
 },{
-    title: `HTML , CSS, Javascript <br/> ultimate courses`,
-    location: 'OnlineCourses <br/> -Mosh Hamadani',
-    term: '2023 Sep - 2023 Nov'
+    title: `HTML, CSS, Javascript Ultimate Courses`,
+    location: 'Online Courses - Mosh Hamadani',
+    term: '2023 Sep - 2023 Nov',
+    icon: MdComputer
 },{
-    title: `React ultimate courses`,
-    location: 'OnlineCourses <br/> -Mosh Hamadani',
-    term: '2023 Nov ~ 2023 Dec'
+    title: `React Ultimate Courses`,
+    location: 'Online Courses - Mosh Hamadani',
+    term: '2023 Nov ~ 2023 Dec',
+    icon: FaReact
 },{
-    title: `The ultimate Git course`,
-    location: 'OnlineCourses <br/> -Mosh Hamadani',
-    term: '2023 Jan ~ 2024 Feb'
+    title: `The Ultimate Git Course`,
+    location: 'Online Courses- Mosh Hamadani',
+    term: '2023 Jan ~ 2024 Feb',
+    icon: LiaGitAlt
 }
 ]
 

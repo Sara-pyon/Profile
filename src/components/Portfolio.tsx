@@ -19,7 +19,7 @@ const Portfolio = () => {
         <Flex flexDirection='column' rowGap='3rem' paddingInline={1}>
             <div>
                 <Heading className={styles.scrollHeading}
-                fontSize='2rem'>
+                fontSize='1.8rem'>
                     Portfolio using React</Heading>
                 <Flex columnGap={5} className={styles.scroll}
                 height='100%' padding={2}>
@@ -31,7 +31,7 @@ const Portfolio = () => {
             </div>
             <div>
                 <Heading className={styles.scrollHeading}
-                fontSize='2rem'>
+                fontSize='1.8rem'>
                     Other Portfolio </Heading>
                 <Flex columnGap={5} className={styles.scroll}
                 height='100%' padding={2}>

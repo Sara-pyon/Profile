@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react"
+import { Flex, Heading, Image, SimpleGrid} from "@chakra-ui/react"
 import AboutEducation from "./AboutEducation"
 import Introduce from "./Introduce"
 import profile from "../constants/profile"

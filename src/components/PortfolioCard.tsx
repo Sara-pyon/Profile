@@ -26,7 +26,7 @@ const PortfolioCard = ({portfolio}:Props) => {
                 <CardFooter display='flex'
                 flexDirection='column' rowGap={4}>
                     <Flex columnGap={5} alignItems='center'>
-                        <Heading>{portfolio.title}</Heading>
+                        <Heading fontSize='2xl'>{portfolio.title}</Heading>
                         {portfolio.github?
                         <Link href={portfolio.github}
                         target="_blank">

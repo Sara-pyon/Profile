@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="container section" id="about">
        <Flex flexDirection='column'
-       rowGap={10}>
+       rowGap='4rem' paddingBottom='2rem'>
            <Introduce />
             <AboutEducation />
             <Flex

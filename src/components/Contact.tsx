@@ -9,47 +9,49 @@ const profile = p.profile;
 
 const Contact = () => {
   return (
-    <Box bg='yellow.50'>
-        <div className="container section" id='contact'>
-            <Flex justifyContent='center' paddingBottom='3rem'>
-                <Box width='fit-content' position='relative'>
-                    <Heading>Contact Me</Heading>
-                    <Box width='100%' height='5px' bg='yellow.300'
-                    position='absolute'
-                    bottom={0}/>
-                </Box>
-            </Flex>
-            <Flex  justifyContent='center' alignItems='center'>
-                <List display='flex' flexDirection={{base:'column',md:'row'}}
-                columnGap={5} rowGap={3}>
-                    <ListItem display='flex'>
-                        <ListIcon as={BsTelephone} color='yellow.500'
-                        fontSize={25} />
-                        {profile.tel}
-                    </ListItem>
-                    <ListItem display='flex'>
-                        <ListIcon as={IoMailOutline} color='yellow.500'
-                        fontSize={25} />
-                        {profile.mail}
-                    </ListItem>
-                    <ListItem display='flex'>
-                        <ListIcon as={IoLocationOutline} color='yellow.500'
-                        fontSize={25} />
-                        {profile.adress}
-                    </ListItem>
-                </List>
-            </Flex>
-            <Flex justifyContent='center'
-            paddingBlock='5rem'>
-                <Link href={profile.github}>
-                    <Image src={images.github}
-                    width='40px' height='40px'
-                    _hover={{transform:'translateY(-5px)'}}
-                    transition='transform .4s' />
-                </Link>
-            </Flex>
-        </div>
-    </Box>
+    <div className="section" id='contact'>
+        <Box bg='yellow.50' paddingTop='2rem'>
+            <div className="container">
+                <Flex justifyContent='center' paddingBottom='3rem'>
+                    <Box width='fit-content' position='relative'>
+                        <Heading>Contact Me</Heading>
+                        <Box width='100%' height='5px' bg='yellow.300'
+                        position='absolute'
+                        bottom={0}/>
+                    </Box>
+                </Flex>
+                <Flex  justifyContent='center' alignItems='center'>
+                    <List display='flex' flexDirection={{base:'column',md:'row'}}
+                    columnGap={5} rowGap={3}>
+                        <ListItem display='flex'>
+                            <ListIcon as={BsTelephone} color='yellow.500'
+                            fontSize={25} />
+                            {profile.tel}
+                        </ListItem>
+                        <ListItem display='flex'>
+                            <ListIcon as={IoMailOutline} color='yellow.500'
+                            fontSize={25} />
+                            {profile.mail}
+                        </ListItem>
+                        <ListItem display='flex'>
+                            <ListIcon as={IoLocationOutline} color='yellow.500'
+                            fontSize={25} />
+                            {profile.adress}
+                        </ListItem>
+                    </List>
+                </Flex>
+                <Flex justifyContent='center'
+                paddingBlock='5rem'>
+                    <Link href={profile.github}>
+                        <Image src={images.github}
+                        width='40px' height='40px'
+                        _hover={{transform:'translateY(-5px)'}}
+                        transition='transform .4s' />
+                    </Link>
+                </Flex>
+            </div>
+        </Box>
+    </div>
   )
 }
 

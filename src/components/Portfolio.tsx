@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div>
         <div className="container section" id='portfolio'>
-            <Flex justifyContent='center' paddingBottom='2rem'>
+            <Flex justifyContent='center' paddingBottom='3rem'>
                 <Box width='fit-content' position='relative'>
                     <Heading>Portfolio</Heading>
                     <Box width='100%' height='5px' bg='yellow.300'
@@ -16,7 +16,7 @@ const Portfolio = () => {
                 </Box>
             </Flex>
         </div>
-        <Flex flexDirection='column' rowGap='3rem' paddingInline={1}>
+        <Flex flexDirection='column' rowGap='5rem' paddingInline={1}>
             <div>
                 <Heading className={styles.scrollHeading}
                 fontSize='1.8rem'>

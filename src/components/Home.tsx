@@ -18,12 +18,10 @@ const Home = () => {
                 zIndex={{base:'0', md:'-1'}}
                 padding={{base:'1rem', md:'8rem 2rem'}}
                 position={{base:'initial', md: 'absolute'}}
-                left='0'
-                top='0.5rem'>
+                left='0' top='0.5rem'>
                     Hi,<br/>I'm Sara Komatsu
                 </Heading>
-                <Box
-                    maxW='330px'>
+                <Box maxW='330px'>
                     <Image
                     src={images.profile2}
                     justifySelf='end'

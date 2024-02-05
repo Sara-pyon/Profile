@@ -1,42 +1,21 @@
-import PortfolioCard from "./PortfolioCard"
 import portfolio from "../constants/portfolio"
-import {Flex, Heading} from "@chakra-ui/react"
-import styles from './ScrollCards.module.css'
+import {Flex} from "@chakra-ui/react"
 import SectionHeading from "./SectionHeading"
+import Showcase from "./Showcase"
 
 const Portfolio = () => {
   return (
     <div>
         <div className="container section" id='portfolio'>
-            <Flex justifyContent='center' paddingBottom='3rem'>
+            <Flex justifyContent='center' paddingBottom={{base:'3rem',md:'4rem'}}>
                 <SectionHeading title="Portfolio" />
             </Flex>
         </div>
         <Flex flexDirection='column' rowGap='5rem' paddingInline={1}>
-            <div>
-                <Heading className={styles.scrollHeading}
-                fontSize='1.8rem'>
-                    Portfolio using React</Heading>
-                <Flex columnGap={5} className={styles.scroll}
-                height='100%' padding={2}>
-                    {portfolio.portfolioReact.map(p =>
-                        <PortfolioCard key={p.title}
-                        portfolio={p} />
-                    )}
-                </Flex>
-            </div>
-            <div>
-                <Heading className={styles.scrollHeading}
-                fontSize='1.8rem'>
-                    Other Portfolio </Heading>
-                <Flex columnGap={5} className={styles.scroll}
-                height='100%' padding={2}>
-                    {portfolio.portfolios.map(p =>
-                        <PortfolioCard key={p.title}
-                        portfolio={p} />
-                    )}
-                </Flex>
-            </div>
+            <Showcase title="Portfolio using React" 
+            portfolio={portfolio.portfolioReact}/>
+            <Showcase title="Other Portfolio" 
+            portfolio={portfolio.portfolios}/>
         </Flex>
     </div>
   )

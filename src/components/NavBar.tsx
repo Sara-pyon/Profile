@@ -1,4 +1,4 @@
-import { List, Text } from '@chakra-ui/react'
+import { Link, List, Text } from '@chakra-ui/react'
 import Logo from './Logo'
 import styles from './NavBar.module.css'
 import { TiThMenu } from "react-icons/ti";
@@ -14,16 +14,16 @@ const NavBar = () => {
         <Logo />
         <List className={[styles.navList,showMenu].join(' ')}>
             <li className={styles.navItem} >
-                <Text>Home</Text>
+                <Link href='#home'>Home</Link>
             </li>
             <li className={styles.navItem} >
-                <Text>About Me</Text>
+                <Link href='#about'>About Me</Link>
             </li>
             <li className={styles.navItem}>
-                <Text>Portfolio</Text>
+                <Link href='#portfolio'>Portfolio</Link>
             </li>
             <li className={styles.navItem} >
-                <Text>Contact Me</Text>
+                <Link href='#contact'>Contact Me</Link>
             </li>
             <div className={styles.toggleClose}>
                 <IoMdClose size={30}

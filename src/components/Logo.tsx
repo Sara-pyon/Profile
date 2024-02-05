@@ -1,11 +1,14 @@
-import { Text } from "@chakra-ui/react"
+import { Link, Text } from "@chakra-ui/react"
 
 const Logo = () => {
   return (
-    <Text fontFamily='Lobster' fontSize='2xl'
-          color='yellow.500'>
-        Sara
-    </Text>
+    <Link _hover={{textDecoration: 'none'}}
+    href="#contact">
+      <Text fontFamily='Lobster' fontSize='2xl'
+            color='yellow.500'>
+          Sara
+      </Text>
+    </Link>
   )
 }
 

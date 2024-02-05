@@ -8,11 +8,13 @@ html{
     padding-inline: 1rem;
   }
 .section{
-  padding-top: 7rem;
+  margin-top: 4rem;
+  padding-top: 3rem;
 }
 @media screen and (max-width: 768px) {
   .section{
-    padding-top: 5rem;
+    margin-top: 1rem;
+    padding-top: 2rem;
   }
 }
 

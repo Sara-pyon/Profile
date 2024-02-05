@@ -1,4 +1,4 @@
-import { SimpleGrid, Show, Flex, Heading, Image, Text } from '@chakra-ui/react'
+import { SimpleGrid, Show, Flex, Image, Text } from '@chakra-ui/react'
 import images from '../constants/images'
 import SectionHeading from './SectionHeading'
 

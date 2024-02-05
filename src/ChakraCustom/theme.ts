@@ -7,8 +7,8 @@ const config: ThemeConfig={
 const theme = extendTheme({
     config,
     fonts:{
-        heading: `'Heading Font', serif`,
-        body: `'Body Font', sans-serif`,
+        heading: `serif`,
+        body: `'Inter', sans-serif;`,
     }
 })
 

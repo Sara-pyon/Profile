@@ -19,3 +19,13 @@ html{
 }
 
 /* =============================== SCROLL BAR ====================================== */
+::-webkit-scrollbar{
+  width: .3rem;
+  height: .3rem;
+  border-radius: 10rem;
+  background-color: #FFFFF0;
+}
+::-webkit-scrollbar-thumb{
+  background-color:#D69E2E;
+}
+

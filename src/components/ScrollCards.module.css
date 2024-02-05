@@ -4,6 +4,11 @@
     scroll-behavior: smooth;
     -ms-overflow-style: none;
 }
+.scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+}
 .scrollHeading{
     text-align: left;
     padding-bottom: 1rem;

@@ -10,7 +10,9 @@ const profile = {
     mail: 'sara.pyonnext@gmail.com',
     adress: 'Canada - Alberta',
     message: "During my university years, I engaged in data analysis using Java and Python and conducted research in the field of Internet science. After graduating from a four-year university in Japan with a degree in Information and Mathematical Science, I developed an interest in web development. Through self-study, I've created several websites as practical exercises and I really enjoy it.",
+    github: ""
 }
+
 
 const profileEducation = [{
     title: `Department of Mathematical Sciences`,

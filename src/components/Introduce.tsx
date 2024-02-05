@@ -1,5 +1,6 @@
 import { SimpleGrid, Show, Flex, Heading, Image, Text } from '@chakra-ui/react'
 import images from '../constants/images'
+import SectionHeading from './SectionHeading'
 
 const Introduce = () => {
   return (
@@ -15,7 +16,7 @@ const Introduce = () => {
         </Show>
         <Flex flexDirection='column'
         rowGap={3}>
-            <Heading>About Me</Heading>
+            <SectionHeading title='About Me' />
             <Text maxW='35em'>
             During my university years, I engaged in data analysis using Java and Python and conducted research in the field of Internet science. After graduating from a four-year university in Japan with a degree in Information and Mathematical Science, I developed an interest in web development. Through self-study, I've created several websites as practical exercises and I really enjoy it.
             </Text>

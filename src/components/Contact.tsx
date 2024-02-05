@@ -1,9 +1,10 @@
-import { Box, Flex, Heading, Image, Link, List, ListIcon, ListItem} from "@chakra-ui/react"
+import { Box, Flex, Image, Link, List, ListIcon, ListItem} from "@chakra-ui/react"
 import p from "../constants/profile";
 import { BsTelephone } from "react-icons/bs";
 import { IoMailOutline } from "react-icons/io5";
 import { IoLocationOutline } from "react-icons/io5";
 import images from "../constants/images";
+import SectionHeading from "./SectionHeading";
 
 const profile = p.profile;
 
@@ -13,12 +14,7 @@ const Contact = () => {
         <Box bg='yellow.50' paddingTop='2rem'>
             <div className="container">
                 <Flex justifyContent='center' paddingBottom='3rem'>
-                    <Box width='fit-content' position='relative'>
-                        <Heading>Contact Me</Heading>
-                        <Box width='100%' height='5px' bg='yellow.300'
-                        position='absolute'
-                        bottom={0}/>
-                    </Box>
+                    <SectionHeading title="Contact Me"/>
                 </Flex>
                 <Flex  justifyContent='center' alignItems='center'>
                     <List display='flex' flexDirection={{base:'column',md:'row'}}

@@ -14,7 +14,7 @@ const About = () => {
             <Flex
             flexDirection='column'
             rowGap={5}>
-                <Heading>My skills are</Heading>
+                <Heading fontSize='1.7rem'>My skills are</Heading>
                 <SimpleGrid columns={{base:5,sm:7,md:10,lg:profile.skills.length}}
                 rowGap={5}>
                     {profile.skills.map(s => 

@@ -21,7 +21,7 @@ const EducationCard = ({title,location,term,icon}:Props) => {
             borderRadius={5}>
                 {icon}
             </Box>
-            <Heading fontSize='2xl'>
+            <Heading fontSize='1.4rem'>
                 {title}
             </Heading>
             <div>

@@ -12,7 +12,7 @@ const Showcase = ({portfolio,title}:Props) => {
   return (
     <div>
         <Heading className={styles.scrollHeading}
-        fontSize='1.8rem'>
+        fontSize='1.7rem'>
            {title} </Heading>
         <Flex columnGap={5} className={styles.scroll}
         height='100%' padding={2}>

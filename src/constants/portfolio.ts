@@ -3,8 +3,8 @@ import images from './images'
 export interface Portfolio{
     title: string;
     image: string;
-    url: string;
     github?: string;
+    url: string;
     skills: string[];
 }
 
@@ -52,12 +52,12 @@ const portfolioReact =[
         title: 'Car Website',
         image: images.react2,
         github: 'https://github.com/Sara-pyon/car_hub',
-        url: 'https://car-e68hizyxo-sara-pyons-projects.vercel.app',
+        url: 'https://car-hub-tawny.vercel.app',
         skills: ['React','TypeScript','Chakra','Axios','ReactQuery','Zustand','Node.js','ReactRouter','Git','Vercel']
     },
     {
         title: 'Restaurant Website',
-        image: images.react1,
+        image: images.react3,
         github: 'https://github.com/Sara-pyon/Gericht',
         url: 'https://gericht-bice-omega.vercel.app',
         skills: ['React','TypeScript','Bootstrap','Axios','ReactQuery','Zustand','Node.js','ReactRouter','Git','Vercel']

@@ -1,0 +1,11 @@
+.scroll{
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+}
+.scrollHeading{
+    text-align: left;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}

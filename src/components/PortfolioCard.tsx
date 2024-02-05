@@ -17,11 +17,12 @@ const PortfolioCard = ({portfolio}:Props) => {
             _hover={{transform:'scale(1.02)'}}
             transition='transform .4s'
             cursor='pointer'>
-          <Link href={portfolio.url} target='_blank'
-          _hover={{textDecoration:'none'}}>
                 <Box padding={3}  bg='yellow.50' borderRadius={5}>
+                    <Link href={portfolio.url} target='_blank'
+                    _hover={{textDecoration:'none'}}>
                     <Image src={portfolio.image}
                     width='100%' objectFit='cover'/>
+                    </Link>
                 </Box>
                 <CardFooter display='flex'
                 flexDirection='column' rowGap={4}>
@@ -48,7 +49,6 @@ const PortfolioCard = ({portfolio}:Props) => {
                         )}
                     </Flex>
                 </CardFooter>
-                </Link>
             </Card>
       </Box>
   )

@@ -1,4 +1,4 @@
-import { Link, List, Text } from '@chakra-ui/react'
+import { Link, List } from '@chakra-ui/react'
 import Logo from './Logo'
 import styles from './NavBar.module.css'
 import { TiThMenu } from "react-icons/ti";
@@ -31,7 +31,7 @@ const NavBar = () => {
             </div>
         </List>
             <div className={styles.toggleOpen}>
-                <TiThMenu color='#D69E2E' size={15}
+                <TiThMenu color='#D69E2E' size={20}
                 onClick={() => setExpanded(!expanded)}/>
             </div>
     </div>

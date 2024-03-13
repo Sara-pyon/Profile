@@ -18,6 +18,7 @@ import react from '../assets/react.svg'
 import chakra from '../assets/icons8-chakra-ui-48.png'
 import bootstrap from '../assets/icons8-bootstrap-48.png'
 import nodejs from '../assets/icons8-nodejs-48.png'
+import mongodb from '../assets/icons8-mongo-db-64.png'
 import git from '../assets/icons8-git-48.png'
 import figma from '../assets/icons8-figma-48.png'
 import adobe from '../assets/icons8-adobe-photoshop-48.png'
@@ -44,6 +45,7 @@ export default {
   chakra,
   bootstrap,
   nodejs,
+  mongodb,
   git,
   figma,
   adobe,

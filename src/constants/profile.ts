@@ -3,6 +3,7 @@ import { MdComputer } from "react-icons/md";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { LiaGitAlt } from "react-icons/lia";
+import { FaNodeJs } from "react-icons/fa";
 
 const profile = {
     name :'Sara Komatsu',
@@ -34,6 +35,11 @@ const profileEducation = [{
     location: 'Online Courses- Mosh Hamadani',
     term: '2023 Jan ~ 2024 Feb',
     icon: LiaGitAlt
+},{
+    title: 'The Complete Node.js Course',
+    location: 'Online Courses- Mosh Hamadani',
+    term: '2023 Feb ~ 2024 Mar',
+    icon: FaNodeJs
 }
 ]
 
@@ -67,6 +73,9 @@ const skills = [{
 },{
     name: 'Node.js',
     icon: images.nodejs
+},{
+    name: 'MongoDB',
+    icon: images.mongodb
 },{
     name: 'Git',
     icon: images.git
